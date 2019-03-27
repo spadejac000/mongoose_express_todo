@@ -12,5 +12,10 @@
     <input type="text" name="description">
     <button type="submit">Add</button>
   </form>
+  <ul>
+    <% for(let i = 0; i < 5; i++) { %>
+    <li><%= description %> - <%= done %></li>
+    <% } %>
+  </ul>
 </body>
 </html>
